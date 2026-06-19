@@ -1,7 +1,5 @@
 package pitfall
 
-import rl "vendor:raylib"
-
 WINDOW_NAME      :: "Pitfall"
 GAME_WIDTH       :: 256.0
 GAME_HEIGHT      :: 144.0

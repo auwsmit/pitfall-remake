@@ -1,7 +1,9 @@
+// EXPLANATION:
+// Simple input actions system
+
 package pitfall
 
 import rl "vendor:raylib"
-import "core:math"
 import "core:fmt"
 import "core:strings"
 

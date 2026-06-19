@@ -6,10 +6,8 @@
 package pitfall
 
 import rl "vendor:raylib"
-import "core:fmt"
 import "core:math"
 import "core:math/rand"
-import "core:time"
 
 Gameplay_State :: struct {
 	time_accumulator : f32, // used for fixed timestep
@@ -378,7 +376,6 @@ tick :: proc(entities: []Entity) {
 }
 
 gameplay_draw :: proc() {
-	has_holes := game.current_level & {.HOLE_SIDES, .HOLE_LADDER} != {}
 	rl.ClearBackground(rl.DARKGREEN)
 
 	// background layer (ground/sky, trees)

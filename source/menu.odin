@@ -4,9 +4,7 @@
 package pitfall
 
 import rl "vendor:raylib"
-import "core:fmt"
 import "core:math"
-import "core:strings"
 
 MENU_WIDTH     :: 100
 MENU_HEIGHT    :: 10

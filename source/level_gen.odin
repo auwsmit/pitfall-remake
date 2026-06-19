@@ -8,8 +8,6 @@ package pitfall
 
 import rl "vendor:raylib"
 import "core:fmt"
-import "core:math"
-import "core:math/rand"
 
 Entity_Flag :: enum {
 	SOLID, HOLE,

@@ -39,7 +39,6 @@ Player :: struct {
 player_update :: proc(entities: []Entity) {
 	dt : f32 = TICK_RATE
 	p := &game.player
-	start_pos := Vec2{p.x, p.y}
 	prev_direction := p.direction
 	prev_state := p.state
 

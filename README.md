@@ -1,5 +1,7 @@
 # Pitfall Remake
 
+This is a remake of the original Atari 2600 version of Pitfall. It uses [raylib](https://www.raylib.com/), is written in [Odin](https://odin-lang.org/), and used [this nice starting template](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template) as a base.
+
 <p align="center">
   <a href="https://auwsmit.github.io/pitfall-remake/">
     <img style="width:700px" src="preview.gif">
@@ -8,8 +10,6 @@
     <a href="https://auwsmit.github.io/pitfall-remake/"><b>Click here to play in browser!</b></a>
   </p>
 </p>
-
-This is a remake of the original Atari 2600 version of Pitfall. It uses [raylib](https://www.raylib.com/), is written in [Odin](https://odin-lang.org/), and used [this nice starting template](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template) as a base.
 
 Runs on Windows, Linux, MacOS, and browsers.
 
@@ -25,7 +25,7 @@ Also includes standard controller support.
 - **Fullscreen:** `Alt+Enter`/`F11`
 
 ## How to Build
-- Run the build script for your desired platform
+- Run the build script for your desired platform. The output executable will be in `build/`.
 
 ## Requirements to build:
 
